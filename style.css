@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('nature.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #5a0808;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button:hover {
+  background-color: #358a7f;
+}
+
+.icon-location {
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 2rem;
+  border-radius: 12px;
+}
+
+#info {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
